@@ -1,7 +1,6 @@
 
 
 <h3>Post Form</h3>
-<!--this is the action in the posts controller-->
 
 
 <%= form_tag posts_path do %>
@@ -13,3 +12,6 @@
 
   <%= submit_tag "Submit Post" %>
 <% end %>
+
+
+<!--The form_tag method also automatically generates the necessary authenticity token, so we can remove the now-redundant hidden_field_tag.--> 

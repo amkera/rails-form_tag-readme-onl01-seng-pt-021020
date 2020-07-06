@@ -26,3 +26,4 @@ describe 'new post' do
 
   
 end
+
